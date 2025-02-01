@@ -20,14 +20,14 @@ console.log(novaFrase);
 
 // 4 - Substitua a palavra "erro" por "correção" na string "Houve um erro no sistema.".
 
-let teste = "Houve um erro no sistema."
-let teste1 = teste.replace("erro", "correção")
-    console.log(teste1);
+let palavra = "Houve um erro no sistema."
+let novaPalavra = palavra.replace("erro", "correção")
+    console.log(novaPalavra);
 
 // 5 - Divida a frase "Eu amo JavaScript" em palavras separadas e exiba cada uma.
 
-let frase1 = "Eu amo JavaScript";
-let palavras = frase1.split(" "); 
+let Frase = "Eu amo JavaScript";
+let palavras = Frase.split(" "); 
 
 for (let i = 0; i < palavras.length; i++) {
   console.log(palavras[i]);
