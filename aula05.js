@@ -14,17 +14,17 @@ const nomes = ['Luiz', 'Eduardo', 'Furtado']
 
 let numeros = [9, 8, 7, 5, 16, 1]; 
 
-let encontrado = false; 
+let numeroEncontrado = false; 
 
 for (let i = 0; i < numeros.length; i++) {  
     if (numeros[i] > 10) {
         console.log(`Encontrado número maior que 10: ${numeros[i]}`);
-        encontrado = true;
+        numeroEncontrado = true;
         break; 
     }
 }
 
-if (!encontrado) {
+if (!numeroEncontrado) {
     console.log("Não foi encontrado nenhum número maior que 10.");
 }
 
