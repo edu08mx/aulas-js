@@ -20,7 +20,7 @@ let numeros = [10, 20, 30, 40, 50];
 // 4 -Crie um array de tarefas e remova a primeira tarefa usando shift.
 
 let tarefas = ['Tarefa1', 'Tarefa2', 'Tarefa3']
-    console.log(tarefas.shift());
+    tarefas.shift();
     console.log(tarefas);
 
 // 5 - Use splice para substituir o terceiro item de um array por "Substituído".
