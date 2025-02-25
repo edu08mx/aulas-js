@@ -10,3 +10,5 @@ Aula 07 - Funções
 Aula 08 - Matrizes
 Aula 09 - Recursão
 Aula 10 - Classes e Objetos
+Aula 11 - Encapsulamento e Abstração
+Aula 12 - Herança
